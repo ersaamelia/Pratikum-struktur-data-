@@ -290,12 +290,12 @@ tipe data dalam bahasa c++ itu beragam dan sangat penting untuk menulis program 
 
 ## Referensi
 
-[1] Putri, M. P., Barovih, G., Azdy, R. A., Yuniansyah, Y., Saputra, A., Sriyeni, Y., Rini, A., & Admojo, F. T. (2022, September 28). ALGORITMA DAN STRUKTUR DATA. https://repository.penerbitwidina.com/id/publications/557434/algoritma-dan-struktur-data.
+[1] Putri, M. P., Barovih, G., Azdy, R. A., Yuniansyah, Y., Saputra, A., Sriyeni, Y., Rini, A., & Admojo, F. T. (2022, September 28). ALGORITMA DAN STRUKTUR DATA. 
 
-[2] Pemrograman terstruktur. (n.d.). Google Books. https://books.google.co.id/books?hl=en&lr=&id=aLVsEAAAQBAJ&oi=fnd&pg=PP1&dq=struktur+data+dan+algoritma+bahasa+c&ots=a3_ynK2EPT&sig=qmRwwh2stLtc4lvSM4Fh3ma52fo&redir_esc=y#v=onepage&q=struktur%20data%20dan%20algoritma%20bahasa%20c&f=false.
+[2] Buana, I. K. S., Setiawan, H., & Putro, P. a. W. (2021). Pemrograman terstruktur. Syiah Kuala University Press.
 
 [3] Dachi, A. (n.d.). Struktur data dan algoritma. Scribd. https://id.scribd.com/presentation/434267206/Struktur-data-dan-algoritma.
 
-[4] https://www.petanikode.com/java-oop-abstract/. 
+[4] Tutorial Java OOP: Mengenal Class Abstrak dan Cara Pakainya. (2020, January 4). Petani Kode.
 
 [5]Pemrograman C++ Untuk SMA/SMK dan Mahasiswa. (n.d.). Google Books. https://books.google.co.id/books?hl=id&lr=&id=LYdeDwAAQBAJ&oi=fnd&pg=PP2&dq=jurnal+tipe+data+map+pemrograman+algoritma+C%2B%2B+terbaru&ots=1Qmyvl8gHw&sig=RPQwMyVGS09ooVJucw_i-VPpLzw&redir_esc=y#v=onepage&q&f=false. 
