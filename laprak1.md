@@ -2,12 +2,14 @@
 <p align="center">Ersa Amelia</p>
 
 ## Dasar Teori
-Tipe Data menentukan apakah sebuah nilai dapat memiliki data atau tidak,serta operasi apa saja yang dapat dilakukan pada data tersebut. dalam pengubah (variabel) yang akan digunakan dalam program harus ditentukan tipe datanya.[1]
+Tipe Data menentukan apakah sebuah nilai dapat memiliki data atau tidak,serta operasi apa saja yang dapat dilakukan pada data tersebut. dalam pengubah (variabel) yang akan digunakan dalam program harus ditentukan tipe datanya.[1].
 bahasa-bahasa pemograman membedakan tujuannya agar operasi-operasi data menjadi lebih efesien dan efektif. didalamnya  menyediakan empat macam tipe data dasar yaitu tipe data integer, floanting-point, doubel-precision, dan karakter. chr dapat di kombinasikan dengan signed, unsigned, long dan short.[2].
+
 pada umumnya dalam setiap bahsa pemograman obyek terdapat tiga level tipe data, yaitu:
 1. Tipe data Primitf
 2. Tipe data abstrak (obyek)
 3. Tipe data collection.
+
 
 1. Tipe Data Primitf 
 tipe data dasar bahasa pemograman dijadikan standar bahasa pemograman tertentu.memiliki tipe data  dasar pada bahasa pemograman C.
@@ -21,10 +23,10 @@ c. Booleans: tipe logika data -data hanya mengandung dua buah nilai, yaitu bolea
 d. tipe karakter /string 
 tipe data yang berupa karakter, string dinatakan dengan pointer dari tipe char. char: singkatan dari character dan digunakan untuk menyimpan satu karakter Unicode seperti 'A', '%', '@' dan 'p' ..
 
-Tipe Data Abstrak
+2. Tipe Data Abstrak
 Tipe data obyek mulai digunakan pada pemograman prosedural pasal ataupun C dengan penggunaan tipe data abstrack dan pointer, yaitu record, struct untuk tipe data kelompok serta pointer untuk penciptaan tipe data dinamis. pada perkembanganya untuk tipe data obyek dimulai pada bahsa pemograman LISP dan kemudian disusul Java.  sedangkan pada java menggunakan Class dimana obyek tidak hanya atribut variabel.
 
-Tipe Data Koleksi
+3. Tipe Data Koleksi
 Tipe data koleksi adalah struktur data yang digunakan untuk menyimpan sekumpulan data yang memiliki tipe data sama atau berbeda. tipe data ini memungkinkan progammer mengakses dengan mudah.
 
 a. Array : kumpulan nilai data yang tersuktur dan merujuk kepada sebuah elemen yang mempunyai tipe data yang sama melalui indeks.[2]
