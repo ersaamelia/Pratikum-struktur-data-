@@ -340,4 +340,5 @@ tipe data dalam bahasa c++ itu beragam dan sangat penting untuk menulis program 
 
 ## Referensi
 [1] S. Esabella and M. Haq, Dasar-Dasar Pemrograman. Olat Maras Publishing, 2021.
+
 [2] Buana, I. K. S., Setiawan, H., & Putro, P. a. W. (2021). Pemrograman terstruktur. Syiah Kuala University Press.
