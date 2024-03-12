@@ -10,10 +10,14 @@ pada umumnya dalam setiap bahsa pemograman obyek terdapat tiga level tipe data, 
 3. Tipe data collection.
 
 1. Tipe Data Primitf 
-tipe data dasar bahasa pemograman dijadikan standar bahasa pemograman tertentu.memiliki tipe data  dasar pada bahasa pemograman C. 
+tipe data dasar bahasa pemograman dijadikan standar bahasa pemograman tertentu.memiliki tipe data  dasar pada bahasa pemograman C.
+
 a. Integer:bilangan bulat yang ditulis dalam bentuk desimal, hexadesimal maupun oktal. (-2,147,483,648 + 2,147,483.647).[2].
+
 b. Floating point: tipe bilangan desimal, tipe data bilangan yang mengandung angka dibelakang koma, misalnya 3.16, 21.5, dll. [2].
+
 c. Booleans: tipe logika data -data hanya mengandung dua buah nilai, yaitu boleaan yang terdiri dari nilai benar ( dipresentasikan dengan nilai 1) dan nilai salah (dipresentasikan dengan nilai 0)..[1]
+
 d. tipe karakter /string 
 tipe data yang berupa karakter, string dinatakan dengan pointer dari tipe char. char: singkatan dari character dan digunakan untuk menyimpan satu karakter Unicode seperti 'A', '%', '@' dan 'p' ..
 
@@ -22,6 +26,7 @@ Tipe data obyek mulai digunakan pada pemograman prosedural pasal ataupun C denga
 
 Tipe Data Koleksi
 Tipe data koleksi adalah struktur data yang digunakan untuk menyimpan sekumpulan data yang memiliki tipe data sama atau berbeda. tipe data ini memungkinkan progammer mengakses dengan mudah.
+
 a. Array : kumpulan nilai data yang tersuktur dan merujuk kepada sebuah elemen yang mempunyai tipe data yang sama melalui indeks.[2]
 b. Vector : nilai dari array. jumlah semua elemen (count) bukan sum nilai yang ada didalam vektor.
 d. Map: Menyimpan data dengan pasangan key-value.
