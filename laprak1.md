@@ -3,7 +3,7 @@
 
 ## Dasar Teori
 Tipe Data menentukan apakah sebuah nilai dapat memiliki data atau tidak,serta operasi apa saja yang dapat dilakukan pada data tersebut. dalam pengubah (variabel) yang akan digunakan dalam program harus ditentukan tipe datanya.[1].
-bahasa-bahasa pemograman membedakan tujuannya agar operasi-operasi data menjadi lebih efesien dan efektif. didalamnya  menyediakan empat macam tipe data dasar yaitu tipe data integer, floanting-point, doubel-precision, dan karakter. chr dapat di kombinasikan dengan signed, unsigned, long dan short.[2].
+bahasa-bahasa pemograman membedakan tujuannya agar operasi-operasi data menjadi lebih efesien dan efektif. didalamnya  menyediakan empat macam tipe data dasar yaitu tipe data integer, floanting-point, doubel-precision, dan karakter. char dapat di kombinasikan dengan signed, unsigned, long dan short.[2].
 
 pada umumnya dalam setiap bahsa pemograman obyek terdapat tiga level tipe data, yaitu:
 1. Tipe data Primitf
