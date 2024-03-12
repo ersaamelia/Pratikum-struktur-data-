@@ -336,7 +336,7 @@ int main() {
 map<string, string> mendeklarasikan map dengan key (nama) bertipe string dan value (alamat) bertipe string.Data mahasiswa ditambahkan ke map dengan map["key"] = value. Loop for digunakan untuk iterasi map dan menampilkan key dan value.find("key") digunakan untuk mencari data mahasiswa berdasarkan key (nama). Jika data ditemukan, value (alamat) ditampilkan. Jika data tidak ditemukan, pesan "Data mahasiswa dengan nama [nama] tidak ditemukan." ditampilkan. program dijalankan menggunakan map untuk menyimpan dan menampilan data mahasiswa. perbedaan dengan array , array menyimpan data dengan urutan tertentu dan ukuran array harus ditentukan. sedangakn map data tanpa urutan tertentu dan ukuran map dapat berubah.
 
 ## Kesimpulan
-ipe data dalam bahasa c++ itu beragam dan sangat penting untuk menulis program yang efektif dan efesien. Memilih tipe data yang tepat dapat meningkatkan performa, skalabilitas, dan kemudahan penggunaan algoritma. Pemahaman yang baik tentang tipe data algoritma sangat penting untuk programmer dan ilmuwan komputer. 
+tipe data dalam bahasa c++ itu beragam dan sangat penting untuk menulis program yang efektif dan efesien. Memilih tipe data yang tepat dapat meningkatkan performa, skalabilitas, dan kemudahan penggunaan algoritma. Pemahaman yang baik tentang tipe data algoritma sangat penting untuk programmer dan ilmuwan komputer. 
 
 ## Referensi
 [1] S. Esabella and M. Haq, Dasar-Dasar Pemrograman. Olat Maras Publishing, 2021.
