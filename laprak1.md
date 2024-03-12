@@ -2,42 +2,28 @@
 <p align="center">Ersa Amelia</p>
 
 ## Dasar Teori
-
+Tipe Data menentukan apakah sebuah nilai dapat memiliki data atau tidak,serta operasi apa saja yang dapat dilakukan pada data tersebut. dalam pengubah (variabel) yang akan digunakan dalam program harus ditentukan tipe datanya.[1]
+bahasa-bahasa pemograman membedakan tujuannya agar operasi-operasi data menjadi lebih efesien dan efektif. didalamnya  menyediakan empat macam tipe data dasar yaitu tipe data integer, floanting-point, doubel-precision, dan karakter. chr dapat di kombinasikan dengan signed, unsigned, long dan short.[2].
 pada umumnya dalam setiap bahsa pemograman obyek terdapat tiga level tipe data, yaitu:
 1. Tipe data Primitf
 2. Tipe data abstrak (obyek)
 3. Tipe data collection.
 
-Tipe data Primitf 
-tipe data primitif dikenal pada bahasa pemograman prosedural seperti: pasal, C, atau basic. dimana tipe data ini memiliki ukuran memori yang tetap dan pasti,diantarnya:
-
-a. Integer: memegang angka dari -2.147.483.648 hingga 2.147.483.647. Contohnya termasuk 15, 407, -908, 6150.
-
-b. Floating point: Float mengacu pada angka floating point, yang merupakan angka dengan tempat desimal seperti 12,43, 5,2 dan -9,12. float dapat menyimpan angka dari -3,4 x 1038 hingga +3,4 x 1038. Menggunakan penyimpanan 8 byte dan memiliki presisi sekitar 7 digit.
-
-c. Booleans:  boolean dan hanya dapat menampung dua nilai: true dan false. Ini biasanya digunakan dalam pernyataan aliran kontrol.
-d. char: singkatan dari character dan digunakan untuk menyimpan satu karakter Unicode seperti 'A', '%', '@' dan 'p' .
-
-f. Doubel:angka floating point, tetapi dapat menyimpan rentang angka
-yang jauh lebih luas. Ini dapat menyimpan angka dari (+/-)5,0 x 10-324 hingga (+/-)1,7 x 10308 dan memiliki presisi sekitar 15 hingga 16 digit. double adalah tipe data floating point default di C. 
+1. Tipe Data Primitf 
+tipe data dasar bahasa pemograman dijadikan standar bahasa pemograman tertentu.memiliki tipe data  dasar pada bahasa pemograman C. 
+a. Integer:bilangan bulat yang ditulis dalam bentuk desimal, hexadesimal maupun oktal. (-2,147,483,648 + 2,147,483.647).[2].
+b. Floating point: tipe bilangan desimal, tipe data bilangan yang mengandung angka dibelakang koma, misalnya 3.16, 21.5, dll. [2].
+c. Booleans: tipe logika data -data hanya mengandung dua buah nilai, yaitu boleaan yang terdiri dari nilai benar ( dipresentasikan dengan nilai 1) dan nilai salah (dipresentasikan dengan nilai 0)..[1]
+d. tipe karakter /string 
+tipe data yang berupa karakter, string dinatakan dengan pointer dari tipe char. char: singkatan dari character dan digunakan untuk menyimpan satu karakter Unicode seperti 'A', '%', '@' dan 'p' ..
 
 Tipe Data Abstrak
 Tipe data obyek mulai digunakan pada pemograman prosedural pasal ataupun C dengan penggunaan tipe data abstrack dan pointer, yaitu record, struct untuk tipe data kelompok serta pointer untuk penciptaan tipe data dinamis. pada perkembanganya untuk tipe data obyek dimulai pada bahsa pemograman LISP dan kemudian disusul Java.  sedangkan pada java menggunakan Class dimana obyek tidak hanya atribut variabel.
 
 Tipe Data Koleksi
 Tipe data koleksi adalah struktur data yang digunakan untuk menyimpan sekumpulan data yang memiliki tipe data sama atau berbeda. tipe data ini memungkinkan progammer mengakses dengan mudah.
-
-a. Array : Array hanyalah kumpulan data yang biasanya terkait satu sama lain. Misalkan kita ingin
-menyimpan usia 5 pengguna. Alih-alih menyimpannya sebagai user1Age, user2Age, user3Age,
-user4Age dan user5Age, kita dapat menyimpannya sebagai array.
-Sebuah array dapat dideklarasikan dan diinisialisasi sebagai berikut:
-int[] userAge = {21, 22, 23, 24, 25
-
-b. Vector : nilai dari array. jumlah semua elemn   (count) bukan sum nilai yang ada didalam vektor.
-
-c. String :String adalah sepotong teks. Contoh string
-adalah teks "Hello World". Untuk mendeklarasikan dan menginisialisasi variabel string, Anda menulis: string pesan = “Halo Dunia”;
-
+a. Array : kumpulan nilai data yang tersuktur dan merujuk kepada sebuah elemen yang mempunyai tipe data yang sama melalui indeks.[2]
+b. Vector : nilai dari array. jumlah semua elemen (count) bukan sum nilai yang ada didalam vektor.
 d. Map: Menyimpan data dengan pasangan key-value.
 Akses data menggunakan key. Contoh: map<string, int> m; m["key"] = 1; cout << m["key"];.
 
@@ -198,16 +184,71 @@ int main() {
 #### Output:
 <img width="960" alt="Cuplikan layar 2024-03-09 065605" src="https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/fa1be6bc-d1ad-4c3a-b264-5799cb0930a4">
 
-program kodingan tipe data primitif menggunakan tipe float dan tipe double untuk menyimpan harga buah. menampilakn dua varibel hargaapel dan hargamangga. menghitung harga 5kg apel dan 2kg mangga, menampilan haslnya menggunakan cout.
-### kesimpulan 
-Program ini menunjukkan perbedaan penggunaan tipe data float dan double. Tipe data double memiliki presisi yang lebih tinggi dibandingkan dengan float untuk menyimpan nilai desimal.
+program kodingan tipe data primitif menggunakan tipe float dan tipe double untuk menyimpan harga buah. menampilakn dua varibel hargaapel dan hargamangga. menghitung harga 5kg apel dan 2kg mangga, menampilan haslnya menggunakan cout. Program ini menunjukkan perbedaan penggunaan tipe data float dan double. Tipe data double memiliki presisi yang lebih tinggi dibandingkan dengan float untuk menyimpan nilai desimal.
 
+### B. 
+```C++
+#include <iostream>
+
+using namespace std;
+
+// Deklarasi fungsi untuk menghitung total harga buah
+float hitungTotalHargaBuah(float hargaBuah, int jumlahBuah) {
+  return hargaBuah * jumlahBuah;
+}
+
+int main() {
+  // Deklarasi variabel
+  float hargaApel = 7000.0f; // Harga apel per kg
+  int jumlahApel = 5; // Jumlah apel yang dibeli
+
+  // Menghitung total harga apel
+  float totalHargaApel = hitungTotalHargaBuah(hargaApel, jumlahApel);
+
+  // Menampilkan total harga
+  cout << "Total harga " << jumlahApel << " kg apel: Rp" << totalHargaApel << endl;
+
+  return 0;
+}
+```
+### Output :
+![kodingan1](https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/86db6700-5aae-4fdd-b0e3-41854206f78d)
+
+secara pisah 
+### B.
+```C++
+#include <iostream>
+
+using namespace std;
+
+// Deklarasi fungsi untuk menghitung total harga buah
+double hitungTotalHargaBuah(double hargaBuah, int jumlahBuah) {
+  return hargaBuah * jumlahBuah;
+}
+
+int main() {
+  // Deklarasi variabel
+  double hargaMangga = 14000.0; // Harga mangga per kg
+  int jumlahMangga = 2; // Jumlah mangga yang dibeli
+
+  // Menghitung total harga mangga
+  double totalHargaMangga = hitungTotalHargaBuah(hargaMangga, jumlahMangga);
+
+  // Menampilkan total harga
+  cout << "Total harga " << jumlahMangga << " kg mangga: Rp" << totalHargaMangga << endl;
+
+  return 0;
+}
+```
+### output :
+![kodingan2](https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/8cbc13ed-538d-4184-9ed6-1f8e0c83a881)
+berdasarkan kodingan pertama meggunakan float untuk harga dan total harga apel. sedangkan kodingan kedua menggunakan doubel untuk harga dan total harga mangga. float memiliki presesi 7 digit dan doubel memiliki presesi 15 digit. float nilai tidak terlalu besar, sedangkan doubel nilai lebih besar. untuk menghitung fungsi hitungtotalhargabuah.
 
 ### 2. soal 
 Jelaskan fungsi dari class dan struct secara detail dan berikan contoh programnya
+class :Class kita membutuhkan keyword class yang dilanjutkan dengan pemberian nama dari deklarasi class tersebut. lalu dilanjutkan dengan meletakan tanda { dan } untuk mengapit definisi dari class. Class termasuk sebuah pernyataan maka dari itu akhir dari deklarasi class diwajibkan untuk mengakhiri class menggunakan tanda titik-koma.Terdapat banyak fasilitas yang disediakan oleh class, yaitu dapat menampung member variabel, function, constructor, desctructor, overloading dan lain-lain. Diluar definisi class kita juga dimungkinkan untuk membuat relalasi seperti inheritance dan overriding.
 
-fungsi class sendiri untuk membuat objek yang lebih kompleks dengan banyak data dan fungsionalitas. class bersifat privat.
-fungsi struct sendiri itu kumpulan variabel menjadi satu , anggotanya dapat diakses langsung dari luar struct. struct itu publik.
+struct: Struct adalah singkatan dari "structure". Dalam bahasa C, struct adalah sebuah tipe data terstruktur yang memungkinkan Anda untuk mengelompokkan data terkait bersama-sama.Menyimpan data kompleks seperti data mahasiswa, data buku, dll. Membangun struktur data yang lebih kompleks seperti linked list, tree, dll. Mempermudah pertukaran data antar modul program.
 ```C++
 #include <stdio.h>
 
@@ -243,7 +284,9 @@ int main() {
 
 ### output:
 !<img width="960" alt="Cuplikan layar 2024-03-08 233638" src="https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/abbc56e1-5dd1-445b-bfc7-3c2a18648215">
-program menunjukkan cara membuat dan menggunakan objek dengan data dan metode terkait. fungsi class itu privat sedangkan struct itu publik.
+Kodingan tersebut mendefinisikan kelas Segitiga dengan dua atribut private (alas dan tinggi) dan dua metode publik (hitungLuas dan hitungKeliling).Fungsi main membuat objek Segitiga baru dengan alas 5.0 dan tinggi 6.0. Luas segitiga dihitung dengan memanggil metode hitungLuas.
+Keliling segitiga dihitung dengan memanggil metode hitungKeliling.
+Luas dan keliling segitiga dicetak ke konsol. Kodingan ini menunjukkan cara mendefinisikan kelas dengan atribut, metode, dan konstruktor.
 
 ### 3. soal
  Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari
@@ -283,19 +326,11 @@ int main() {
 ```
 ### ouput:
 <img width="960" alt="Cuplikan layar 2024-03-09 071558" src="https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/0f0acf9e-82af-42d3-891f-1b4357ea3476">
-program dijalankan menggunakan map untuk menyimpan dan menampilan data mahasiswa. perbedaan dengan array , array menyimpan data dengan urutan tertentu dan ukuran array harus ditentukan. sedangakn map data tanpa urutan tertentu dan ukuran map dapat berubah.
+map<string, string> mendeklarasikan map dengan key (nama) bertipe string dan value (alamat) bertipe string.Data mahasiswa ditambahkan ke map dengan map["key"] = value. Loop for digunakan untuk iterasi map dan menampilkan key dan value.find("key") digunakan untuk mencari data mahasiswa berdasarkan key (nama). Jika data ditemukan, value (alamat) ditampilkan. Jika data tidak ditemukan, pesan "Data mahasiswa dengan nama [nama] tidak ditemukan." ditampilkan. program dijalankan menggunakan map untuk menyimpan dan menampilan data mahasiswa. perbedaan dengan array , array menyimpan data dengan urutan tertentu dan ukuran array harus ditentukan. sedangakn map data tanpa urutan tertentu dan ukuran map dapat berubah.
 
 ## Kesimpulan
-tipe data dalam bahasa c++ itu beragam dan sangat penting untuk menulis program yang efektif dan efesien.
+ipe data dalam bahasa c++ itu beragam dan sangat penting untuk menulis program yang efektif dan efesien. Memilih tipe data yang tepat dapat meningkatkan performa, skalabilitas, dan kemudahan penggunaan algoritma. Pemahaman yang baik tentang tipe data algoritma sangat penting untuk programmer dan ilmuwan komputer. 
 
 ## Referensi
-
-[1] Putri, M. P., Barovih, G., Azdy, R. A., Yuniansyah, Y., Saputra, A., Sriyeni, Y., Rini, A., & Admojo, F. T. (2022, September 28). ALGORITMA DAN STRUKTUR DATA. 
-
+[1] S. Esabella and M. Haq, Dasar-Dasar Pemrograman. Olat Maras Publishing, 2021.
 [2] Buana, I. K. S., Setiawan, H., & Putro, P. a. W. (2021). Pemrograman terstruktur. Syiah Kuala University Press.
-
-[3] Dachi, A. (n.d.). Struktur data dan algoritma. Scribd. https://id.scribd.com/presentation/434267206/Struktur-data-dan-algoritma.
-
-[4] Tutorial Java OOP: Mengenal Class Abstrak dan Cara Pakainya. (2020, January 4). Petani Kode.
-
-[5]Pemrograman C++ Untuk SMA/SMK dan Mahasiswa. (n.d.). Google Books. https://books.google.co.id/books?hl=id&lr=&id=LYdeDwAAQBAJ&oi=fnd&pg=PP2&dq=jurnal+tipe+data+map+pemrograman+algoritma+C%2B%2B+terbaru&ots=1Qmyvl8gHw&sig=RPQwMyVGS09ooVJucw_i-VPpLzw&redir_esc=y#v=onepage&q&f=false. 
