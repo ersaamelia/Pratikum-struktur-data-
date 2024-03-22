@@ -169,17 +169,8 @@ int main() {
 <img width="960" alt="Cuplikan layar 2024-03-22 185556" src="https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/b9330fc4-92fc-4e39-bd5d-5a4277671474">
 
 ### interprestasi :
-jumlahData: Variabel integer untuk menyimpan jumlah data yang akan dimasukkan pengguna.
-
-dataArray: Array integer dengan ukuran jumlahData untuk menyimpan nilai-nilai data yang dimasukkan pengguna.
-cout: Digunakan untuk menampilkan pesan "Data Array: ".
-
-Loop for: Digunakan untuk iterasi melalui semua elemen array dataArray dan mencetak setiap elemennya.
-
-Percabangan if: Digunakan untuk memeriksa apakah elemen array saat ini genap (dataArray[i] % 2 == 0) atau ganjil (dataArray[i] % 2 == 1).
-Jika genap, elemen array dicetak setelah pesan "Bilangan Genap: ".
-
-Jika ganjil, elemen array dicetak setelah pesan "Bilangan Ganjil:".
+jumlahData: Variabel integer untuk menyimpan jumlah data yang akan dimasukkan pengguna. dataArray: Array integer dengan ukuran jumlahData untuk menyimpan nilai-nilai data yang dimasukkan pengguna.
+cout: Digunakan untuk menampilkan pesan "Data Array: ". Loop for: Digunakan untuk iterasi melalui semua elemen array dataArray dan mencetak setiap elemennya. Percabangan if: Digunakan untuk memeriksa apakah elemen array saat ini genap (dataArray[i] % 2 == 0) atau ganjil (dataArray[i] % 2 == 1). Jika genap, elemen array dicetak setelah pesan "Bilangan Genap: ". Jika ganjil, elemen array dicetak setelah pesan "Bilangan Ganjil:".
 
 ### Kesimpulan 
 Membaca dan menyimpan data dari pengguna ke dalam array.
