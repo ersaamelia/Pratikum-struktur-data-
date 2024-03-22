@@ -23,7 +23,7 @@ menggambarkan array multidimensi, hanya terbatas hingga dimensi ke-3, yakni deng
 ## Guided 
 
 ### 1. [Input Data Array 3 Dimensi]
-
+~~~
 C++
 #include <iostream>
 using namespace std;
@@ -71,15 +71,16 @@ int main()
     cout << endl;
   }
 }
-
+~~~
 #### Output:
 <img width="960" alt="Cuplikan layar 2024-03-21 203336" src="https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/f9272c2a-53ff-4776-a32b-052cf40305c3">
 <img width="960" alt="Cuplikan layar 2024-03-21 203354" src="https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/4132dc2a-395a-44ca-83f0-20d8cffafbb6">
 
-
+### Interprestasi:
+Baris pertama menyertakan pustaka <iostream> yang menyediakan fungsi input/output standar seperti cout (untuk mencetak ke konsol) dan cin (untuk menerima input dari pengguna). Baris kedua menggunakan instruksi using namespace std; untuk menghindari penulisan std:: berulang-ulang di depan objek standar seperti cout dan cin. Array ini dapat menyimpan 2 "lapisan" (dimensi pertama), masing-masing berisi 3 baris (dimensi kedua), dan setiap baris memiliki 3 elemen integer (dimensi ketiga). Total ada 2 x 3 x 3 = 18 elemen integer yang dapat disimpan dalam array ini. input elemen for untuk memasukan nilai setiap elemen dan array. output for untuk  menampilkan nilai-nilai yang telah dimasukkan pengguna ke dalam array.
 
 ### 2. [Program Mencari Nilai Maksimal pada Array]
-C++
+~~~C++
 #include <iostream>
 using namespace std;
 
@@ -112,10 +113,15 @@ int main()
     }
     cout << "nilai maksimum adalah " << maks << " berada di array ke" << lokasi << endl;
 }
-
+~~~
 #### Output:
 <img width="960" alt="Cuplikan layar 2024-03-21 204825" src="https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/45e6b6c5-02b2-475f-a0ca-107e8cab4791">
-
+### Interprestasi:
+maks: integer untuk menyimpan nilai maksimum yang ditemukan dalam array.
+(a) integer untuk menyimpan panjang array yang dimasukkan pengguna.
+(i)counter loop yang diinisialisasi ke 1 (walaupun biasanya dimulai dari 0).Variabel maks diinisialisasi dengan nilai elemen pertama array (array[0]). Ini akan menjadi referensi awal untuk mencari nilai maksimum.
+lokasi: integer untuk menyimpan indeks elemen dengan nilai maksimum.Loop for ketiga digunakan untuk iterasi melalui elemen array.Di dalam loop:Kondisi if memeriksa apakah elemen array saat ini (array[i]) lebih besar dari nilai maksimum yang disimpan di maks.Jika ya, maka: Nilai maksimum diperbarui dengan nilai elemen saat ini (maks = array[i]).
+Indeks elemen maksimum disimpan di lokasi. memasukkan panjang array (jumlah elemen), memasukkan setiap elemen array, Menemukan nilai maksimum dalam array, Menampilkan indeks elemen dengan nilai maksimum.Baris kode yang diulang (meminta input array) dihapus. Inisialisasi maks diulang, di mana hanya satu inisialisasi yang diperlukan.Menghapus baris yang tidak perlu. Mengoptimalkan kode dengan mengurangi inisialisasi variabel.menampilkan nilai maksimum dan indeksnya dalam array yang dimasukkan.
 
 
 ## Unguided 
@@ -123,7 +129,7 @@ int main()
 ### 1. A [Soal]
 Buatlah program untuk menampilkan Output seperti berikut dengan data yang
 diinputkan oleh user!
-
+~~~
 C++
 #include <iostream>
 
@@ -164,7 +170,7 @@ int main() {
 
   return 0;
 } 
-
+~~~
 #### Output:
 <img width="960" alt="Cuplikan layar 2024-03-22 185556" src="https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/b9330fc4-92fc-4e39-bd5d-5a4277671474">
 
@@ -189,7 +195,7 @@ Menemukan dan menampilkan bilangan genap dan ganjil dalam array.
 ### 2. soal 
 Buatlah program Input array tiga dimensi (seperti pada guided) tetapi jumlah
 atau ukuran elemennya diinputkan oleh user!
-C++
+~~~C++
 #include <iostream>
 
 using namespace std;
@@ -232,7 +238,7 @@ int main() {
 
   return 0;
 }
-
+~~~
 ### output:
 <img width="960" alt="Cuplikan layar 2024-03-22 200621" src="https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/0e25b23d-838e-4274-bb1d-e35c8e267f6a">
 <img width="960" alt="Cuplikan layar 2024-03-22 200558" src="https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/ee4107ac-2efc-4de1-8938-6a5d55651852">
@@ -246,7 +252,7 @@ Menampilkan semua nilai elemen array 3 dimensi.
  Buatlah program menu untuk mencari nilai Maksimum, Minimum dan Nilai
 rata – rata dari suatu array dengan input yang dimasukan oleh user!
 
-C++
+~~~C++
 #include <iostream>
 #include <iomanip>
 
@@ -341,7 +347,7 @@ int main() {
 
   return 0;
 }
-
+~~~
 ### ouput:
 <img width="960" alt="Cuplikan layar 2024-03-22 192230" src="https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/6842d737-08e4-4167-bffc-254ef0c0ae71">
 <img width="960" alt="Cuplikan layar 2024-03-22 192257" src="https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/b26dfef3-3b8a-4dba-a06e-017c26937411">
