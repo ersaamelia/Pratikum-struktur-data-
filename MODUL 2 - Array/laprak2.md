@@ -24,7 +24,7 @@ menggambarkan array multidimensi, hanya terbatas hingga dimensi ke-3, yakni deng
 
 ### 1. [Input Data Array 3 Dimensi]
 
-C++
+```C++
 #include <iostream>
 using namespace std;
 // PROGRAM INPUT ARRAY 3 DIMENSI
@@ -71,7 +71,7 @@ int main()
     cout << endl;
   }
 }
-
+```
 #### Output:
 <img width="960" alt="Cuplikan layar 2024-03-21 203336" src="https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/f9272c2a-53ff-4776-a32b-052cf40305c3">
 <img width="960" alt="Cuplikan layar 2024-03-21 203354" src="https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/4132dc2a-395a-44ca-83f0-20d8cffafbb6">
@@ -79,7 +79,7 @@ int main()
 
 
 ### 2. [Program Mencari Nilai Maksimal pada Array]
-C++
+```C++
 #include <iostream>
 using namespace std;
 
@@ -112,7 +112,7 @@ int main()
     }
     cout << "nilai maksimum adalah " << maks << " berada di array ke" << lokasi << endl;
 }
-
+```
 #### Output:
 <img width="960" alt="Cuplikan layar 2024-03-21 204825" src="https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/45e6b6c5-02b2-475f-a0ca-107e8cab4791">
 
@@ -124,7 +124,7 @@ int main()
 Buatlah program untuk menampilkan Output seperti berikut dengan data yang
 diinputkan oleh user!
 
-C++
+```C++
 #include <iostream>
 
 using namespace std;
@@ -164,7 +164,7 @@ int main() {
 
   return 0;
 } 
-
+```
 #### Output:
 <img width="960" alt="Cuplikan layar 2024-03-22 185556" src="https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/b9330fc4-92fc-4e39-bd5d-5a4277671474">
 
@@ -180,7 +180,7 @@ Menemukan dan menampilkan bilangan genap dan ganjil dalam array.
 ### 2. soal 
 Buatlah program Input array tiga dimensi (seperti pada guided) tetapi jumlah
 atau ukuran elemennya diinputkan oleh user!
-C++
+```C++
 #include <iostream>
 
 using namespace std;
@@ -223,7 +223,7 @@ int main() {
 
   return 0;
 }
-
+```
 ### output:
 <img width="960" alt="Cuplikan layar 2024-03-22 200621" src="https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/0e25b23d-838e-4274-bb1d-e35c8e267f6a">
 <img width="960" alt="Cuplikan layar 2024-03-22 200558" src="https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/ee4107ac-2efc-4de1-8938-6a5d55651852">
@@ -237,7 +237,7 @@ Menampilkan semua nilai elemen array 3 dimensi.
  Buatlah program menu untuk mencari nilai Maksimum, Minimum dan Nilai
 rata – rata dari suatu array dengan input yang dimasukan oleh user!
 
-C++
+```C++
 #include <iostream>
 #include <iomanip>
 
@@ -332,7 +332,7 @@ int main() {
 
   return 0;
 }
-
+```
 ### ouput:
 <img width="960" alt="Cuplikan layar 2024-03-22 192230" src="https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/6842d737-08e4-4167-bffc-254ef0c0ae71">
 <img width="960" alt="Cuplikan layar 2024-03-22 192257" src="https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/b26dfef3-3b8a-4dba-a06e-017c26937411">
