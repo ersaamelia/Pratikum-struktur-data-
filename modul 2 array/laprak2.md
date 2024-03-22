@@ -351,6 +351,8 @@ int main() {
 ### ouput:
 <img width="960" alt="Cuplikan layar 2024-03-22 192230" src="https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/6842d737-08e4-4167-bffc-254ef0c0ae71">
 <img width="960" alt="Cuplikan layar 2024-03-22 192257" src="https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/b26dfef3-3b8a-4dba-a06e-017c26937411">
+<img width="960" alt="Cuplikan layar 2024-03-23 054314" src="https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/ee492afb-2a76-429a-ac4c-0ca8549c9287">
+
 
 ### Interprestasi 
 cout digunakan untuk menampilkan "Nilai elemen array". loop for digunakan untuk iterasi melalui semua elemen. didalam loop nilai maksimum dan minimum diperbarui jika ada elemen yang lebih besar/kecil. total nilai semua elemen (sum) juga di hitung. switch digunakan untuk memproses pilihan :
