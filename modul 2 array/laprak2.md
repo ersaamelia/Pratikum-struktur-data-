@@ -23,8 +23,8 @@ menggambarkan array multidimensi, hanya terbatas hingga dimensi ke-3, yakni deng
 ## Guided 
 
 ### 1. [Input Data Array 3 Dimensi]
-~~~
-C++
+
+~~~C++
 #include <iostream>
 using namespace std;
 // PROGRAM INPUT ARRAY 3 DIMENSI
@@ -129,8 +129,8 @@ Indeks elemen maksimum disimpan di lokasi. memasukkan panjang array (jumlah elem
 ### 1. A [Soal]
 Buatlah program untuk menampilkan Output seperti berikut dengan data yang
 diinputkan oleh user!
-~~~
-C++
+
+~~~C++
 #include <iostream>
 
 using namespace std;
