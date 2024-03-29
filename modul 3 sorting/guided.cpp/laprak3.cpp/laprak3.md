@@ -188,8 +188,7 @@ int main() {
 <img width="960" alt="Cuplikan layar 2024-03-27 223511" src="https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/f936e0d4-3807-4a01-bae7-4e60f081c616">
 
 ### interprestasi :
- fungsi include <iostream> untuk menyediakan input/output data dan using namespace std tidak perlu std::. fungsi selectsort menerima arr dan n untuk ukuran array. variabel pos_min sebagai integr untuk menyimpan indeks elemen dengan nilai minimum sementara dan temp untuk menyimpan nilai. looping for menjalankan sebanyak n-1. i sebagai elemen minimum sementara. arr[pos_min] untuk mengecek elemen indeks j. selectsort(Ips, Mahasiwa) untuk mengurutkan array ips . looping for digunakan untuk menampilkan setiap elemen yang terurut dari terbesar ke terkecil. 
-
+ fungsi include <iostream> untuk menyediakan input/output data dan using namespace std tidak perlu std::. fungsi selectsort menerima arr dan n untuk ukuran array. variabel pos_min sebagai integr untuk menyimpan indeks elemen dengan nilai minimum sementara dan temp untuk menyimpan nilai. looping for menjalankan sebanyak n-1. i sebagai elemen minimum sementara. arr[pos_min] untuk mengecek elemen indeks j. selectsort(Ips, Mahasiwa) untuk mengurutkan array ips . looping for digunakan untuk menampilkan setiap elemen yang terurut dari terbesar ke terkecil. <iostream> Menyertakan pustaka iostream yang diperlukan untuk operasi input dan output. void selectSort(float arr[], int n) Mendeklarasikan fungsi selectSort dengan dua parameter. (arr) Array float yang berisi nilai IP mahasiswa.(n) Jumlah elemen dalam array arr. (int pos_min) Variabel integer untuk menyimpan indeks elemen dengan nilai IP minimum pada iterasi saat ini.(float temp) Variabel sementara untuk menyimpan nilai IP selama proses pertukaran. Perulangan ini akan berjalan sebanyak n - 1 kali. Pada setiap iterasi, elemen ke-i dianggap sebagai elemen terkecil sementara. Perulangan ini mencari elemen dengan nilai IP minimum di dalam sub-array mulai dari indeks i + 1 sampai indeks terakhir (n - 1). Indeks elemen minimum disimpan di variabel pos_min.
 ### Kesimpulan 
 kode ini untuk mengururtkan array ips mahasiswa dari terbesar ke terkecil. 
 selection sort O(n^2) menyatakan bahwa waktu yang dibutuhkan untuk menjalankan selection sort berbanding lurus dengan pangkat dua dari jumlah elemen (n). semakin besar jumlah elemen maka waktu yang dibutuhkan untuk mengurutkan data akan semakin lama.
@@ -245,7 +244,14 @@ int main() {
 <img width="960" alt="Cuplikan layar 2024-03-27 234545" src="https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/92dd2780-d89a-46e0-b535-17305b9e302e">
 
 ### interprestasi
-fungsi bubbleSort berfungsi ini mengurutkan array nama dengan panjangan warga untuk menggunakan algoritma bubble sort. Swapped untuk menandai apakah ada pertukaran elemen. if (nama[j] > nama[j + 1]) membandingkan dua elemen array yang berdekatan. if (!swapped) jika tidak ada pertukaran maka dapat dihentikan.
+fungsi bubbleSort berfungsi ini mengurutkan array nama dengan panjangan warga untuk menggunakan algoritma bubble sort. Swapped untuk menandai apakah ada pertukaran elemen. if (nama[j] > nama[j + 1]) membandingkan dua elemen array yang berdekatan. if (!swapped) jika tidak ada pertukaran maka dapat dihentikan. <iostream Menyertakan pustaka iostream yang diperlukan untuk operasi input dan output. <string >Menyertakan pustaka string yang diperlukan untuk operasi string. void bubbleSort(string nama[], int n) Mendeklarasikan fungsi bubbleSort dengan dua parameter. (nama) Array string yang berisi nama-nama warga.(n) Jumlah elemen dalam array nama. (bool swapped)Variabel boolean untuk menandakan apakah ada pertukaran elemen pada iterasi saat ini. (int i, j )Variabel integer untuk perulangan. Perulangan ini akan berjalan sebanyak n - 1 kali. Misalkan array nama berisi nama-nama berikut:
+
+{"siti", "situ", "sana", "ana", "ani", "caca", "cici", "dida", "dodo","dadi"} 
+
+Setelah diurutkan dengan bubble sort, array nama akan menjadi:
+
+{"ana", "ani", "caca", "cici", "dadi", "dida", "dodo", "sana", "siti", "situ"}
+
 ### Kesimpulan : 
 program bubble sort untuk menguruttkan nama- nama warga pak RT agar mudah di pahami dan diimplementasikan. time complexity adalah O(n^2) dimana sort perlu membandingkan n-1 elemen. program dapat dimodifikasi dalam urutan descending. bubble sort dapat diubah untuk mengurutkan data dengan tipe data yang berbeda seperti integer atau float. 
 
