@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul Sorting</h1>
+# <h1 align="center">Laporan Praktikum Modul Searching </h1>
 <p align="center">Ersa Amelia</p>
 
 ## Dasar Teori
@@ -272,8 +272,10 @@ int main() {
 <img width="960" alt="Cuplikan layar 2024-04-03 195348" src="https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/f90fc57f-3d85-4aff-8401-0bda13db4644">
 
 ### interprestasi
-memasukkan kalimat getline(cin,kalimat). kalimat dapat diubah menjadi huruf kecil dengan menggunakan transform(kalimat.begin(), kalimat.end(), kalimat.begin(), tolower). perulangan for digunakan setiap karakter dengan memperiksa (a, i, u, e, o). hasil akan memunjulkan jumlah vokal. 
-Time complexity adalah O(n), dimana panjang kalimat untuk mencari huruf vokal. 
+<algorithm> Pustaka ini menyediakan berbagai fungsi algoritma standar, termasuk fungsi transform. kalimat String yang menyimpan kalimat yang akan dianalisis. (jumlah_vokal) Integer yang menyimpan jumlah huruf vokal yang ditemukan. cout << ("Masukkan kalimat: ";) Menampilkan pesan "Masukkan kalimat: " ke layar. (getline(cin, kalimat);) Membaca kalimat yang dimasukkan pengguna dan menyimpannya dalam variabel kalimat. (transform(kalimat.begin(), kalimat.end(), kalimat.begin(), ::tolower);) Mengubah semua huruf dalam string kalimat menjadi huruf kecil.  for (int i = 0; i < kalimat.length(); i++) Perulangan untuk setiap karakter dalam string kalimat. if (kalimat[i] == 'a' || kalimat[i] == 'i' || kalimat[i] == 'u' || kalimat[i] == 'e' || kalimat[i] == 'o') Memeriksa apakah karakter saat ini adalah huruf vokal (a, i, u, e, atau o). jumlah_vokal++; Jika karakter saat ini adalah huruf vokal, maka nilai jumlah_vokal ditambah 1. Memasukkan kalimat getline(cin,kalimat). kalimat dapat diubah menjadi huruf kecil dengan menggunakan transform(kalimat.begin(), kalimat.end(), kalimat.begin(), tolower). perulangan for digunakan setiap karakter dengan memperiksa (a, i, u, e, o). hasil akan memunjulkan jumlah vokal.
+
+Time complexity adalah O(n), dimana panjang kalimat untuk mencari huruf vokal. <iostream> Pustaka ini digunakan untuk operasi input dan output data. operasi dominan dalam kodingan ini adalah perulangan yang iterasi sebanyak n. 
+
 ### Kesimpulan :  
 kodingan ini untuk menghitung banyaknya huruf vokal dalam sebuah kalimat. seperti : saya suka kpop maka jumlah vokalnya ada 5. 
 
@@ -317,7 +319,11 @@ int main() {
 <img width="960" alt="Cuplikan layar 2024-04-03 201630" src="https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/e346b562-ddd3-472b-8487-dbacb4789a8c">
 
 ### Interprestasi :
-
+(int data[] = {9, 4, 1, 4, 7, 10, 5, 4, 12, 4};) Deklarasi dan inisialisasi array data yang berisi 10 elemen integer.
+(int n = sizeof(data) / sizeof(data[0]);) Menghitung dan menyimpan panjang array data dalam variabel n.
+(int jumlah_angka_4 = 0;) Inisialisasi variabel jumlah_angka_4 untuk menyimpan jumlah angka 4.
+for (int i = 0; i < n; i++) Perulangan untuk setiap elemen dalam array data. if (data[i] == 4) Memeriksa apakah elemen saat ini sama dengan 4.
+(jumlah_angka_4++;) Jika elemen saat ini sama dengan 4, maka nilai jumlah_angka_4 ditambah 1. (cout << "Jumlah angka 4 dalam data: " << jumlah_angka_4 << endl;) Menampilkan jumlah angka 4 ke layar. (return 0;)Mengembalikan nilai 0 untuk menunjukkan bahwa program selesai dengan sukses.
 fungsi hitungAngkaEmpat menerima dua parameter ada data dan panjang. variabel jumlahEmpat diinisialisasi dengan nilai 0. perulangan for digunakan iterasi elemen dalam array. setiap elemen diperiksa apakah sama dengan 4, jika sama maka diincrement. seperti kodingan itu menghitung berapa kali angka 4 muncul dalam array maka halinya ada 4. 
 
 time complexity  adalah O(n), di mana n adalah jumlah elemen dalam array data. Karena program harus melakukan pemeriksaan setiap elemen dalam array secara berurutan untuk menentukan apakah itu angka 4 atau bukan. Oleh karena itu, kompleksitasnya tumbuh secara linear dengan ukuran input (jumlah elemen dalam array).
