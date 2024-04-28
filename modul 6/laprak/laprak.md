@@ -1081,8 +1081,7 @@ insertBelakang("Farrel", 23300003)untuk Menambahkan node baru bernama "Farrel" d
 Menambahkan data di tengah , insertTengah("Wati", 23300004, 4) untuk Menambahkan node baru bernama "Wati" dengan NIM 23300004 di antara
 
 #### Kesimpulan:
-
-
+Circular list dan single linked list non circular adalah dua struktur data yang berbeda dengan kelebihan dan kekurangannya masing-masing. Circular list menawarkan fleksibilitas dalam melewatkan elemen, sedangkan single linked list non circular lebih sederhana dan mudah diimplementasikan. Pilihan struktur data yang tepat tergantung pada kebutuhan spesifik aplikasi.
 #### Sumber:
 [1] A. S. R. St. MTi, STRUKTUR DATA DAN ALGORITMA DENGAN C++. CV. AA. RIZKY, 2019.
 
