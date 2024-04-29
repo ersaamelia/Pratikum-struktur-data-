@@ -22,6 +22,8 @@ berikutnya, dan juga memiliki field yang berisi data. Pada akhir linked list, no
 menunjuk ke NULL yang akan digunakan sebagai kondisi berhenti pada saat pembacaan isi 
 linked list. [2]
 
+Linked list adalah struktur data linier yang terdiri dari sejumlah simpul (node) yang saling terhubung melalui referensi atau pointer. Setiap simpul dalam linked list menyimpan data dan memiliki sebuah pointer yang menunjuk ke simpul berikutnya dalam urutan linear. Konsep dasar dari linked list adalah bahwa setiap simpul mengandung dua bagian utama: data dan pointer. Data mewakili informasi yang ingin disimpan, misalnya bilangan, teks, atau objek lainnya. Pointer, juga disebut sebagai “next pointer,” menunjuk ke simpul berikutnya dalam urutan. [3] 
+
 ### Guided
 ### 1. 
 
@@ -1092,4 +1094,6 @@ Circular list dan single linked list non circular adalah dua struktur data yang 
 [1] A. S. R. St. MTi, STRUKTUR DATA DAN ALGORITMA DENGAN C++. CV. AA. RIZKY, 2019.
 
 [2] R. I. Oktavian, “MODUL PRAKTIKUM STRUKTUR DATA BAHASA PEMROGRAMAN C++", Fkipunlam, Dec. 2017.
+
+[3] Riczky Pratama, "Panduan Lengkap Mengenai Linked List: Definisi, Implementasi, dan Penggunaan dalam Pemrograman", Mei.2023.
 
