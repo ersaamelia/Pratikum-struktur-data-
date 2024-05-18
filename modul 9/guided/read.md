@@ -18,6 +18,8 @@ Minimum jika nilai root lebih kecil dari nilai left child dan right child.[1].
 
 ![image](https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/856ae73d-4cae-40d1-b771-0bf5df21cf27)
 
+
+Implementing a Priority Queue with a Heap
 heap: Sebuah pohon biner lengkap 𝑇 yang elemennya disimpan di node internal dan memiliki kunci yang memenuhi properti urutan heap. Untuk setiap node internal v dari 𝑇, kami menyebut kunci dari elemen yang disimpan di 𝑣 sebagai 𝑘(𝑣).
 last: Sebuah referensi ke node terakhir dari 𝑇
 comp: Sebuah aturan perbandingan yang mendefinisikan hubungan urutan total di antara kunci-kunci. Tanpa kehilangan generalitas, kita mengasumsikan bahwa comp mempertahankan elemen minimum di akar. Jika kita ingin elemen maksimum berada di akar, maka kita dapat mendefinisikan ulang aturan perbandingan kita sesuai dengan itu.[2].
