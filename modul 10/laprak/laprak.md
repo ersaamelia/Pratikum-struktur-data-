@@ -158,6 +158,7 @@ faktorial dari 13 : 1932053504
 
 
 #### Kesimpulan:
+pemrograman rekursif adalah teknik penting dalam pemrograman modular yang efektif untuk masalah yang dapat dipecahkan dengan mendefinisikan masalah tersebut dalam bentuk yang lebih sederhana secara berulang. Contoh perhitungan faktorial menggambarkan mekanisme rekursif di mana fungsi terus memanggil dirinya sendiri hingga mencapai kondisi dasar yang menghentikan proses rekursi.
 
 ## Sumber :
 [1].  S. Esabella and M. Haq, Dasar-Dasar Pemrograman. Olat Maras Publishing, 2021:78-81.
