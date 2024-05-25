@@ -24,6 +24,7 @@ seterusnya sampai nilai a adalah 1. Untuk nilai a sama dengan 1 ini, perintah re
 proses ke bagian yang memanggilnya.
 Hasil akhir dari nilai yang akan dikembalikan oleh fungsi faktorial dari penjelasan di atas untuk 5 faktorial dapat 
 dituliskan sebagai berikut: [2].
+
 ![image](https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/d22d18c8-25ac-4c13-81f6-f2493284729c)
 
 
