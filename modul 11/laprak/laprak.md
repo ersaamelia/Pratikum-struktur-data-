@@ -296,7 +296,6 @@ c.Implementasikan fungsi untuk menambahkan data baru, menghapus data, mencari da
 
 using namespace std;
 
-// Struktur data untuk mahasiswa
 struct Mahasiswa {
     string NIM;
     int nilai;
@@ -304,10 +303,8 @@ struct Mahasiswa {
     bool isEmpty = true; // Flag to indicate if the slot is empty
 };
 
-// Deklarasi hash table
 vector<Mahasiswa> hashTable(10); // Ukuran hash table (dapat diubah sesuai kebutuhan)
 
-// Fungsi hash untuk menghitung indeks hash dari NIM
 int hashFunction(string NIM) {
     int hash = 0;
     for (char c : NIM) {
@@ -316,7 +313,6 @@ int hashFunction(string NIM) {
     return hash % hashTable.size(); // Modulo dengan ukuran hash table
 }
 
-// Fungsi untuk menentukan poin berdasarkan nilai
 char tentukanPoin(int nilai) {
     if (nilai >= 80 && nilai <= 90) {
         return 'A';
@@ -329,7 +325,6 @@ char tentukanPoin(int nilai) {
     }
 }
 
-// Fungsi untuk menambahkan data mahasiswa baru
 void tambahMahasiswa() {
     Mahasiswa mhs;
     cout << "Masukkan NIM: ";
@@ -347,7 +342,6 @@ void tambahMahasiswa() {
     cout << "Mahasiswa berhasil ditambahkan!" << endl;
 }
 
-// Fungsi untuk menghapus data mahasiswa berdasarkan NIM
 void hapusMahasiswa() {
     string NIM;
     cout << "Masukkan NIM yang akan dihapus: ";
@@ -372,7 +366,6 @@ void hapusMahasiswa() {
     }
 }
 
-// Fungsi untuk mencari data mahasiswa berdasarkan NIM
 void cariMahasiswaNIM() {
     string NIM;
     cout << "Masukkan NIM yang dicari: ";
@@ -398,7 +391,6 @@ void cariMahasiswaNIM() {
     }
 }
 
-// Fungsi untuk mencari data mahasiswa berdasarkan rentang nilai (80 - 90)
 void cariMahasiswaRentangNilai() {
     bool found = false;
     cout << "Mahasiswa dengan nilai antara 80 dan 90:" << endl;
@@ -415,7 +407,6 @@ void cariMahasiswaRentangNilai() {
     }
 }
 
-// Fungsi untuk mencari data mahasiswa berdasarkan nilai spesifik
 void cariMahasiswaNilaiSpesifik() {
     int nilai;
     bool found = false;
@@ -435,7 +426,6 @@ void cariMahasiswaNilaiSpesifik() {
     }
 }
 
-// Fungsi untuk menampilkan semua data mahasiswa
 void tampilData() {
     cout << "\nDaftar Mahasiswa:" << endl;
     for (const auto& mhs : hashTable) {
@@ -447,7 +437,6 @@ void tampilData() {
     }
 }
 
-// Fungsi untuk menampilkan informasi poin
 void tampilkanInfoPoin() {
     cout << "\nInformasi Poin Berdasarkan Nilai:" << endl;
     cout << "Nilai 80 - 90: Poin A" << endl;
@@ -456,7 +445,6 @@ void tampilkanInfoPoin() {
     cout << "Nilai < 50 atau > 90: Poin F" << endl;
 }
 
-// Tampilan menu
 void menu() {
     cout << "\nMenu:" << endl;
     cout << "1. Tambah Mahasiswa" << endl;
