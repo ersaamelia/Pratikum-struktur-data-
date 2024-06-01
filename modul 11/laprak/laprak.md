@@ -9,6 +9,28 @@ karyawan. Tentu saja, menggunakan 100.000 elemen akan menyebabkan banyak ruang y
 terbuang. Jadi berapa banyak array yang harus digunakan untuk mengisi data pencarian kunci dengan cepat? Tentu saja membutuhkan array kecil yang dapat menampung semua data. Jadi bagaimana memetakan antara lokasi PIN dan Array? Jawabannya adalah menggunakan fungsi hash (hash function). Hash function adalah fungsi yang digunakan untuk mengubah nilai kunci menjadi nilai yang disebut alamat hash. Alamat hash ini mewakili indeks posisi dalam array. Teknologi yang dapat dengan mudah dan cepat memperoleh lokasi rekaman melalui fungsi hash disebut hashing,
 sehingga data karyawan dapat dicari tanpa membandingkan dengan kunci lainnya.[1]
 
+# Memilih Fungsi Hash
+Kriteria pemilihan fungsi hash pertama-tama harus
+mempertimbangkan bahwa perhitungannya harus mudah dan cepat, dan
+kedua, harus menghasilkan nilai yang didistribusikan dalam rentang
+indeks array. Metode yang digunakan untuk membentuk fungsi hash
+adalah sisa pembagian, pemotongan dan pelipatan (folding).
+1. Sisa Pembagian
+Konsep sisa pembagian adalah membagi nilai kunci, misalnya PIN
+pada data karyawan dibagi dengan nilai, dan sisa pembagian
+digunakan sebagai alamat hash. Secara matematis, fungsi hash
+ditulis sebagai:
+H(k) = k mod m, m>n
+2. Pemotongan
+Metode pemotongan dilakukan dengan mengabaikan beberapa
+bagian kunci dan menggunakan sisanya sebagai indeks untuk
+mengakses data dalam tabel hash.
+3. Pelipatan (Folding)
+Dalam metode folding, kunci dibagi menjadi beberapa bagian,
+seperti dua digit, dan kemudian ditambahkan. Hasilnya dipotong
+untuk memasukkan rentang indeks di tabel hash.[1]
+
+
 # Menangani Tabrakan (Collision) Dalam Tabel Hash
 Apapun metode yang digunakan bisa saja menimbulkan 2 buah
 kunci atau lebih diterjemahkan oleh fungsi hash ke dalam nilai yang
