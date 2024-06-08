@@ -647,7 +647,7 @@ int main() {
 ![image](https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/3da7869d-f59e-4f3d-af90-2f80685bff49)
 ![image](https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/2cc869ef-cfd0-46ea-a0d8-fa987a59c0a2)
 ![image](https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/90996f05-cc68-4b46-a17e-4a374c9dcebb)
-![image](https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/34b66605-db06-40c5-bdce-df8c3b9cc861)
+
 
 #### Interprestasikan:
 program kodingan ini untuk menambahkan node secara interaktif, melakukan traversal (preOerder, InOrder dan PostOrder), serta menampilkan anak-anak dan keturunan dari node tertentu. Menambahkan Node dapat menambahkan node baru ke tree dengan memilih menu "Insert node".
