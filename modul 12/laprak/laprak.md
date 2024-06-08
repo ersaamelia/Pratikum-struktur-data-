@@ -643,6 +643,10 @@ int main() {
 #### Output:
 ![image](https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/d26e05ea-8bc5-4f24-8f53-c18a112f759f)
 ![image](https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/c71a865b-567b-468e-92e2-779391a5d46c)
+![image](https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/c73bd9b9-871a-4d88-a61a-d942bfb5de9b)
+![image](https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/3da7869d-f59e-4f3d-af90-2f80685bff49)
+![image](https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/2cc869ef-cfd0-46ea-a0d8-fa987a59c0a2)
+![image](https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/90996f05-cc68-4b46-a17e-4a374c9dcebb)
 ![image](https://github.com/ersaamelia/Pratikum-struktur-data-/assets/157209170/34b66605-db06-40c5-bdce-df8c3b9cc861)
 
 #### Interprestasikan:
